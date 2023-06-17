@@ -4,3 +4,4 @@ tests/config/config.ts
 node_modules
 influxdb
 !.gitkeep
+.env
