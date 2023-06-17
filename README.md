@@ -3,5 +3,5 @@
 ```
 yarn install
 docker compose up -d
-yarn start testFileNoExtension
+yarn start httpGet
 ```
