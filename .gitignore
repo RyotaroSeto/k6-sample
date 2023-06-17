@@ -1,0 +1,6 @@
+.idea
+dist
+tests/config/config.ts
+node_modules
+influxdb
+!.gitkeep
