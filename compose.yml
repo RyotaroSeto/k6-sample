@@ -6,7 +6,7 @@ services:
     environment:
       - INFLUXDB_DB=k6
     networks:
-      - k6net
+      - k6Net
       - grafanaNet
     volumes:
       - ./influxdb:/var/lib/influxdb
@@ -14,7 +14,7 @@ services:
   k6:
     image: grafana/k6:latest
     networks:
-      - k6net
+      - k6Net
     ports:
       - "6565:6565"
     environment:
@@ -35,8 +35,9 @@ services:
       - ./grafana:/etc/grafana/provisioning/
     networks:
       - grafanaNet
+
 networks:
-  k6net:
+  k6Net:
     driver: bridge
   grafanaNet:
     driver: bridge
