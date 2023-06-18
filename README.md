@@ -22,4 +22,8 @@ yarn start httpGet
 ``` bash
 localhost:3000
 ```
+以下で負荷試験の結果をDashboardで可視化できる
+Home > Dashboards > k6
+
+
 
