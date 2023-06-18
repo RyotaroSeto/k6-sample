@@ -25,5 +25,5 @@ localhost:3000
 以下で負荷試験の結果をDashboardで可視化できる
 Home > Dashboards > k6
 
-
-
+### [thresholds](https://k6.io/docs/using-k6/thresholds/)
+### [options](https://k6.io/docs/using-k6/k6-options/how-to/)
